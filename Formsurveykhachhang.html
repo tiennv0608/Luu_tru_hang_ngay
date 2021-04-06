@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Survey khach hang</title>
+</head>
+<body>
+<form method="get" width="50%">
+    <h2>Market Research Survey</h2>
+    <p>Please take a few moments to complete this satisfaction survey</p>
+    <p><b>What is your age range?</b></p>
+    <select name="age">
+        <option>18-24</option>
+        <option>24-30</option>
+        <option>30-45</option>
+        <option>45-60</option>
+    </select>
+    <p><b>What is your yearly income range?</b></p>
+    <select name="salary">
+        <option>0-$25000</option>
+        <option>$25000-$50000</option>
+        <option>$50000-$75000</option>
+    </select>
+    <p><b>Gender</b></p>
+    <input type="radio" name="gender">Nam
+    <br>
+    <input type="radio" name="gender">Nữ
+    <p><b>Which of the following products have your purchased in last 2 months. Please check all the apply.</b></p>
+    <input type="checkbox" name="Product"> Product 1
+    <br>
+    <input type="checkbox" name="Product"> Product 2
+    <br>
+    <input type="checkbox" name="Product"> Product 3
+    <p><b>How often would you use our new product?</b></p>
+    <input type="radio" name="How often"> Daily
+    <br>
+    <input type="radio" name="How often"> Weekly
+    <br>
+    <input type="radio" name="How often"> Monthly
+    <p><b>What would you pay for the new product?</b></p>
+    <table>
+        <tr>
+            <td>$</td>
+            <td><input type="text">.</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Dollars</td>
+            <td>Cents</td>
+        </tr>
+    </table>
+    <p><b>What features would you like to see in new product.</b></p>
+    <textarea name="details" cols="30" rows="10"></textarea>
+    <p>Please rate your level of agreement with the following statements.</p>
+    <table>
+        <tr bgcolor="#a9a9a9">
+            <th></th>
+            <th>Strongly Disagree</th>
+            <th>Disagree</th>
+            <th>Agree</th>
+            <th>Strongly Agree</th>
+        </tr>
+        <tr>
+            <td rowspan="2"><b>Our products are priced highly.</b></td>
+            <td align="center"><input type="radio" name="price"></td>
+            <td align="center"><input type="radio" name="price"></td>
+            <td align="center"><input type="radio" name="price"></td>
+            <td align="center"><input type="radio" name="price"></td>
+            </tr>
+        <tr>
+            <td align="center">1</td>
+            <td align="center">2</td>
+            <td align="center">3</td>
+            <td align="center">4</td>
+        </tr>
+        <tr bgcolor="#a9a9a9">
+            <td rowspan="2"><b>Our products are high quality.</b></td>
+            <td align="center"><input type="radio" name="quality"></td>
+            <td align="center"><input type="radio" name="quality"></td>
+            <td align="center"><input type="radio" name="quality"></td>
+            <td align="center"><input type="radio" name="quality"></td>
+        </tr>
+        <tr bgcolor="#a9a9a9">
+            <td align="center">1</td>
+            <td align="center">2</td>
+            <td align="center">3</td>
+            <td align="center">4</td>
+        </tr>
+        <tr>
+            <td rowspan="2"><b>You would recommend our product to a friend or coworker.</b></td>
+            <td align="center"><input type="radio" name="recommend"></td>
+            <td align="center"><input type="radio" name="recommend"></td>
+            <td align="center"><input type="radio" name="recommend"></td>
+            <td align="center"><input type="radio" name="recommend"></td>
+        </tr>
+        <tr>
+            <td align="center">1</td>
+            <td align="center">2</td>
+            <td align="center">3</td>
+            <td align="center">4</td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="Submit"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+</form>
+</body>
+</html>

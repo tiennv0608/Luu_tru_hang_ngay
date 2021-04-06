@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <button type="button" onclick="ShowMe()">I challenge you click on me</button>
+    <p id="doan" onmouseover="document.getElementById('doan').style.color='red'">day la doan can doi</p>
+    <p id="doan" onmouseout="document.getElementById('doan').style.color='blue'">day la doan can doi</p>
+    <script>
+        function ShowMe(){
+            alert ('Đố click lần nữa đấy')
+                    }
+    </script>
+
+    <p>Select a car from list.</p>
+    <select name="car" id="mySelect">
+        <option value="Mazda">Mazda</option>
+        <option value="Vinfast">Vinfast</option>
+        <option value="BMW">BMW</option>
+        <option value="Kia">Kia</option>
+    </select>
+    <script>
+        var selectedElement = document.getElementById("mySelect");
+        selectedElement.addEventListener("change",changeFunction);
+        function changeFunction() {
+            var selectValue = document.getElementById("mySelect").value;
+            alert(selectValue)
+        }
+    </script>
+    <p id="note">This is a test</p>
+    <script>
+        var note = document.getElementById("note");
+        note.addEventListener("mouseover",mouseover);
+        note.addEventListener("mouseout",mouseout);
+        function mouseover(){
+            document.getElementById("note").style.color="red"
+        }
+        function mouseout(){
+            document.getElementById("note").style.color="blue"
+        }
+    </script>
+</body>
+</html>
