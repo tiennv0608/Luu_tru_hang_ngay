@@ -1,11 +1,29 @@
-function clickButton(){
+function clickButton1() {
     let firstNumber = document.getElementById('firstNumber').value;
+    let a = parseFloat(firstNumber);
     let secondNumber = document.getElementById('secondNumber').value;
-    let a = parseInt(firstNumber);
-    let b = parseInt(secondNumber);
-    let add = document.getElementById('add').text;
-    let sub = document.getElementById('sub').text;
-    let mul = document.getElementById('mul').text;
-    let div = document.getElementById('div').text;
-
+    let b = parseFloat(secondNumber);
+    let v;
+    alert(v=a+b);
 }
+function clickButton2() {
+    let firstNumber = document.getElementById('firstNumber').value;
+    let a = parseFloat(firstNumber);
+    let secondNumber = document.getElementById('secondNumber').value;
+    let b = parseFloat(secondNumber);
+    let v;
+    alert(v=a-b);}
+function clickButton3() {
+    let firstNumber = document.getElementById('firstNumber').value;
+    let a = parseFloat(firstNumber);
+    let secondNumber = document.getElementById('secondNumber').value;
+    let b = parseFloat(secondNumber);
+    let v;
+    alert(v=a*b);}
+function clickButton4() {
+    let firstNumber = document.getElementById('firstNumber').value;
+    let a = parseFloat(firstNumber);
+    let secondNumber = document.getElementById('secondNumber').value;
+    let b = parseFloat(secondNumber);
+    let v;
+    alert(v=a/b);}

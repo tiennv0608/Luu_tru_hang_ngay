@@ -10,25 +10,22 @@
     <table>
         <caption><h2>Calculator</h2></caption>
         <tr>
-            <td colspan="2"><input type="number" id="firstNumber"></td>
-            <td colspan="2"><input type="number" id="secondNumber"></td>
+            <td colspan="2"><input type="text" id="firstNumber"></td>
+            <td colspan="2"><input type="text" id="secondNumber"></td>
         </tr>
         <tr>
-            <td><input type="button" value="Addition(+)" id="add" onclick="alert(a+b)"></td>
-            <td><input type="button" value="Subtraction(-)" id="sub" onclick="clickButton()"></td>
-            <td><input type="button" value="Multiplication(X)" id="mul" onclick="clickButton()"></td>
-            <td><input type="button" value="Division(/)" id="div" onclick="clickButton()"></td>
+            <td><button id="add" onclick="clickButton1()">Addtional(+)</button></td>
+            <td><button id="sub" onclick="clickButton2()">Subtraction(-)</button></td>
+            <td><button id="mul" onclick="clickButton3()">Multiplication(X)</button></td>
+            <td><button id="div" onclick="clickButton4()">Division(/)</button></td>
         </tr>
         <tr>
             <td colspan="4">Result Division:</td>
         </tr>
     </table>
 </form>
-<script>
-    let firstNumber = document.getElementById('firstNumber').value;
-    let secondNumber = document.getElementById('secondNumber').value;
-    let a = parseInt(firstNumber);
-    let b = parseInt(secondNumber);
+<script src="ungdungmaytinh.js">
+
 </script>
 </body>
 </html>
