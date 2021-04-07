@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form>
+        <table width="30%">
+            <tr>
+                <th>Amount</th>
+                <th>From Currency</th>
+                <th>To Currency</th>
+                <th></th>
+            </tr>
+            <tr align="center">
+                <td><input type="text" id="value"></td>
+                <td><select id="from">
+                    <option value="VietNam">VietNam</option>
+                    <option value="USD">USD</option>
+                </select></td>
+                <td>
+                    <select id="to">
+                        <option value="VietNam">VietNam</option>
+                        <option value="USD">USD</option>
+                    </select>
+                </td>
+                <td><input type="button" id="con" value="Convert" onclick="showResults()"></td>
+            </tr>
+            <tr>
+                <td rowspan="4" style="color: blue" id="result">Results: </td>
+            </tr>
+        </table>
+    </form>
+    <script src="Chuyendoitiente.js">
+
+    </script>
+</body>
+</html>
