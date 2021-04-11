@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form>
+    <table>
+        <tr>
+            <td>Họ và tên</td>
+            <td><input type="text" id="ht"></td>
+            <td id="loi"></td>
+            <td><input type="button" onclick="showFoul();"></td>
+        </tr>
+    </table>
+</form>
+<script>
+    function showFoul() {
+        if (document.getElementById('ht').value == "") {
+            document.getElementById('loi').innerHTML = "Hãy nhập họ tên"
+        } else {
+            document.getElementById('loi').innerHTML = "Họ tên đúng"
+        }
+    }
+</script>
+</body>
+</html>
